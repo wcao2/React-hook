@@ -1,0 +1,12 @@
+useState()
+The useState hook lets you add state to functional components
+In classes, the state is always an object
+With the useState hook, the state doesn't have to be an object
+The useState hook returns an array with 2 elements
+The first element is the current value of the state, and the second element is a state setter function(component will re-render)
+New state value depends on the previous state value? pass an function to the setter function
+
+
+useEffect()
+import useEffect from react, call it within the component, pass a function which has to be executed after every render of that component
+it runs after every render
